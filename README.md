@@ -1,11 +1,24 @@
 # Bible & Songbook
 
-An offline Android Bible and hymn/songbook application.
+An offline Android Bible and Lutheran hymn/songbook application.
+
+## Download and install
+
+The latest Android APK is available from the repository's **Releases** page.
+
+Download:
+
+`KJV-Bible-and-Songbook-v1.0.0.apk`
+
+Open the APK on your Android device and follow the installation prompt.
+
+Android may ask you to allow installation from your browser or file manager because the app is distributed directly rather than through Google Play.
 
 ## Features
 
 - Fully offline Bible and songbook
-- KJV Bible reader with book, chapter, and reference navigation
+- Complete King James Version (KJV) Bible
+- Bible navigation by book, chapter, and reference
 - Song search by title, number, or words
 - Song categories
 - Favorite songs
@@ -19,58 +32,26 @@ An offline Android Bible and hymn/songbook application.
 
 Favorites, highlights, notes, settings, and recent items are stored locally on the device.
 
+## Hymn collection
+
+The app contains a collection of Lutheran hymns organized and numbered to correspond with *Hymns and Songs of Zion*, the hymnal used in Apostolic Lutheran churches.
+
+This allows the app to be used alongside the physical hymnal while keeping familiar hymn numbers and organization.
+
+This is an independent project and is not an official application of, sponsored by, or affiliated with the Apostolic Lutheran Church of America.
+
 ## Privacy
 
-The app is designed to work without network access. The Android manifest intentionally does **not**
-request the `INTERNET` permission, and the WebView blocks network loads. External attribution links,
-when opened by the user, are handed to the device's external browser.
+The app is designed to work without network access.
 
-## Building
+The Android manifest intentionally does **not** request the `INTERNET` permission, and the WebView blocks network loads.
 
-Requirements:
-
-- Android Studio
-- Android SDK 35
-- JDK bundled with Android Studio is suitable
-
-Open the project directory in Android Studio and build the app.
-
-From the Android Studio terminal on Windows, if Java is not already configured:
-
-```powershell
-$env:JAVA_HOME="C:\Program Files\Android\Android Studio\jbr"
-$env:Path="$env:JAVA_HOME\bin;$env:Path"
-```
-
-Then use Android Studio's **Build > Build APK(s)** command.
-
-For a public GitHub release, use Android Studio's **Build > Generate Signed App Bundle or APK**
-and keep the signing keystore private. Never commit a `.jks` or `.keystore` file.
+External attribution links, when opened by the user, are handed to the device's external browser.
 
 ## Release
 
-Public release version: **1.0.0**
+Latest public release:
 
-Suggested Git tag: `v1.0.0`
+**v1.0.0**
 
-## Attribution
-
-App icon:
-
-[Bible icons created by Magnific - Flaticon](https://www.flaticon.com/free-icons/bible)
-
-## Content and licensing
-
-The application source code is licensed under the MIT License; see `LICENSE`.
-
-The MIT License applies to the application code only. Bundled Bible text, hymn/song text, icon
-artwork, and other third-party content are **not relicensed** by this repository. Their respective
-copyright, public-domain status, licenses, and attribution requirements remain with their original
-sources/rightsholders.
-
-Before redistributing bundled textual content publicly, the repository owner should verify the
-redistribution status of every included hymn/song text in the intended jurisdictions.
-
-## Security note
-
-Do not commit signing keys, passwords, `local.properties`, IDE-local configuration, or build output.
+The signed APK can be downloaded from the GitHub **Releases** section.
