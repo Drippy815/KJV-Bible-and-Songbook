@@ -10,11 +10,11 @@ The latest Android APK is available from the repository's **Releases** page.
 
 Latest release:
 
-**v1.1.0**
+**v1.2.6**
 
 Download:
 
-`KJV-Bible-and-Songbook-v1.1.0.apk`
+`KJV-Bible-and-Songbook-v1.2.6.apk`
 
 Open the APK on your Android device and follow the installation prompt.
 
@@ -23,22 +23,22 @@ Android may ask you to allow installation from your browser or file manager beca
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d6a1e3d8-07b0-4a49-8f32-5e13ac005716" width="280" />
-  <img src="https://github.com/user-attachments/assets/0b76b908-e618-4ed0-9d9c-2d09464950e5" width="280" />
+  <img src="https://github.com/user-attachments/assets/6250f17f-a35f-4930-adf2-8b61950922ee" width="280" />
+  <img src="https://github.com/user-attachments/assets/76c1d296-859a-4e7e-881a-af7c7d1f8376" width="280" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/7dafeea1-913c-40e1-98d9-e61ea49e1b5b" width="280" />
-  <img src="https://github.com/user-attachments/assets/26d56a97-a804-4913-8948-3b5a6b5184a1" width="280" />
+  <img src="https://github.com/user-attachments/assets/b2b33a3d-f850-4fa6-837d-c8f7798c3cea" width="280" />
+  <img src="https://github.com/user-attachments/assets/5da3310d-9334-443f-8327-00fb3ed663ac" width="280" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d950da7a-df3a-4eb2-b231-e009c916e948" width="280" />
-  <img src="https://github.com/user-attachments/assets/ca8c2b50-a3fc-47c8-a66c-4903d03dfa81" width="280" />
+  <img src="https://github.com/user-attachments/assets/f036c01f-c033-4675-ba7a-d359cf584d29" width="280" />
+  <img src="https://github.com/user-attachments/assets/45d9ee97-dca2-424a-a0dd-8189b9da7c79" width="280" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e3f468fd-aea9-4d87-b567-4a492e13d581" width="280" />
+  <img src="https://github.com/user-attachments/assets/ba336c04-949f-4aa8-95d6-743b39aa1fb0" width="280" />
 </p>
 
 ## Bible features
@@ -59,7 +59,7 @@ Android may ask you to allow installation from your browser or file manager beca
 - Adjustable Bible text size
 - Serif or Android system font
 - Adjustable line spacing
-- Light, dark, and system themes
+- Light, dark, and AMOLED themes
 - Optional red-letter Words of Christ
 
 ## Bible Study
@@ -139,14 +139,15 @@ The app does not include advertising or analytics.
 
 ### Internet access
 
-The Android application requests the `INTERNET` permission so that optional data packs can be downloaded when requested by the user.
+The Android application requests the `INTERNET` permission so that optional data packs and Bible study resources can be downloaded when requested by the user.
 
 Internet access is used for user-initiated functions such as:
 
 - Downloading red-letter data
 - Downloading Bible study data
-- Downloading dictionary data
-- Re-downloading or updating those resources
+- Downloading dictionaries and commentaries
+- Downloading additional supported Bible translations
+- Re-downloading or updating supported resources
 
 The Bible reader's WebView does not act as a general-purpose web browser.
 
@@ -166,7 +167,7 @@ See **Sources & Offline Import** inside the app for information about supported 
 
 ## Data sources and attribution
 
-Bible & Songbook uses or can optionally use data from multiple public-domain and open-source projects for Bible text, red-letter information, dictionaries, Strong's information, and Hebrew/Greek linguistic data.
+Bible & Songbook uses or can optionally use data from multiple public-domain and open-source projects for Bible text, red-letter information, dictionaries, Strong's information, Hebrew/Greek linguistic data, and other study resources.
 
 Each third-party dataset retains its own copyright, license, and attribution requirements.
 
@@ -182,11 +183,13 @@ Uninstalling the application may remove locally stored application data.
 
 Updates signed with the same application signing key can normally be installed over an existing version without removing local data.
 
+> **Signing key notice:** v1.2.6 begins using the new release signing key intended for future releases. Builds signed with an older key may need to be uninstalled before installing v1.2.6.
+
 ## Release
 
 Latest public release:
 
-**v1.1.0**
+**v1.2.6**
 
 The signed APK can be downloaded from the GitHub **Releases** section.
 
